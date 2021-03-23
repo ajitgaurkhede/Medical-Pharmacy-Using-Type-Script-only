@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <script src="makeOrder.js"></script>
+    <script src="Medicine.js"></script>
+    <script src="Doctor.js"></script>
+
+    <link href = "style.css" rel="stylesheet"/> 
+    <title>Medical Pharmacy</title>
+</head>
+<body>
+ <!--    Medicine Name: <input type="text" id="input" placeholder="add medicine"/>
+    <input type="submit" onclick="addMedicine()"/>
+    <br>
+    <button type="button" onclick="showMedicine()">showMedicines</button>
+    <p id="showMedicines"> </p> 
+
+    Search Medicine : <input type="text" id="searchMedicine" placeholder="Enter Mdeicine Name"/>
+    <button onclick="searchMedicine()">Search</button>
+    <br>
+
+    Order Medicine : <input type="text" id="orderMedicine" placeholder="Enter Mdeicine Name for order"/>
+    <button onclick="makeOrder()">Place Order</button>
+    <br>
+
+    <button onclick="showDoctors()" >show DoctorList</button>
+    <br>  -->
+
+      
+   <div class="login">
+    <h1>Medical Pharmacy</h1>
+      <p><input type="text" id="inputMedicine" placeholder="add medicine name"></p>
+      <p><input type="number" id="inputPrice" placeholder="add medicine price"></p>
+      <p><input type="number" id="inputQuant" placeholder="add medicine Quantity"></p>
+    <p><button onclick="addMedicine()">Add Medicine</button></p>
+    <p><input type="text"  id="searchMedicine" placeholder="Enter Mdeicine Name"></p>
+    <p><button  onclick="searchMedicine()">Search</button></p>
+    <p><button onclick="showMedicines()" >Show All Medicines</button></p>
+    <p><input type="text"  id="orderMedicine" placeholder="Enter Mdeicine Name for order"></p>
+    <p><input type="number"  id="orderMedicineQuant" placeholder="Enter Mdeicine Quantity for order"></p>
+    <p><button onclick="makeOrder()">Place Order</button></p>
+    <p><button onclick="showDoctors()" >show DoctorList</button></p>
+     
+    </div>
+
+</body>
+</html>
